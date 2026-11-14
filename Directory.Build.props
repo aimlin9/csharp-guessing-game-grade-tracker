@@ -1,0 +1,10 @@
+<!--
+  Settings shared by every project in the solution.
+  TreatWarningsAsErrors: any compiler warning fails the build, so small problems
+  (like a possible null reference) get fixed immediately instead of piling up.
+-->
+<Project>
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>
