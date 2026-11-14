@@ -18,7 +18,7 @@ Both apps use a menu that repeats until the user quits, never crash on bad input
    ```
 2. **Run the tests:** `dotnet test`
 3. **Read the reasoning:** [docs/DESIGN.md](docs/DESIGN.md) explains the architecture and every key decision.
-4. **See coverage:** open the latest run in the [Actions tab](https://github.com/aimlin9/csharp-guessing-game-grade-tracker/actions). The coverage table is on the run's summary page, and the full HTML report can be downloaded as the `coverage-report` artifact.
+4. 4. **See coverage:** open the latest run in the [Actions tab](https://github.com/aimlin9/csharp-guessing-game-grade-tracker/actions). The coverage table is on the run's summary page, and the full HTML report can be downloaded as the `coverage-report` artifact. The latest run measured **98.5% line coverage** and **98.3% branch coverage**.
 
 ### Where each requirement is met
 
@@ -119,7 +119,7 @@ csharp-guessing-game-grade-tracker/
 
 ## Testing
 
-139 xUnit tests run with `dotnet test` and automatically on GitHub, with a coverage report on every run.
+139 xUnit tests run with `dotnet test` and automatically on GitHub, with a coverage report on every run: **98.5% line coverage** (336 of 341 lines) and **98.3% branch coverage** (121 of 123 branches). The few uncovered lines are mainly the two-line `Program.cs` entry points, which the tests bypass by running `GameApp` and `TrackerApp` directly.
 
 | Area | Tests | What they cover |
 |---|---|---|
