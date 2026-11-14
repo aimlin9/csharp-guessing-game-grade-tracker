@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ConsoleKit/ConsoleKit.csproj" />
+    <Project Path="src/GradeTracker.Cli/GradeTracker.Cli.csproj" />
+    <Project Path="src/GradeTracker.Core/GradeTracker.Core.csproj" />
+    <Project Path="src/GuessingGame.Cli/GuessingGame.Cli.csproj" />
+    <Project Path="src/GuessingGame.Core/GuessingGame.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ConsoleApps.Tests/ConsoleApps.Tests.csproj" />
+  </Folder>
+</Solution>
